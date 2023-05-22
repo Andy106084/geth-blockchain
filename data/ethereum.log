@@ -1,0 +1,61 @@
+INFO [05-22|11:22:46.736] Maximum peer count                       ETH=5 LES=0 total=5
+INFO [05-22|11:22:46.739] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [05-22|11:22:46.744] Sanitizing cache to Go's GC limits       provided=1024 updated=556
+INFO [05-22|11:22:46.745] Set global gas cap                       cap=50,000,000
+INFO [05-22|11:22:46.749] Allocated trie memory caches             clean=83.00MiB dirty=139.00MiB
+INFO [05-22|11:22:46.749] Using leveldb as the backing database 
+INFO [05-22|11:22:46.749] Allocated cache and file handles         database=/data/node1/geth/chaindata cache=277.00MiB handles=262,144
+INFO [05-22|11:22:46.780] Using LevelDB as the backing database 
+INFO [05-22|11:22:46.794] Opened ancient database                  database=/data/node1/geth/chaindata/ancient/chain readonly=false
+INFO [05-22|11:22:46.795] Disk storage enabled for ethash caches   dir=/data/node1/geth/ethash count=3
+INFO [05-22|11:22:46.797] Disk storage enabled for ethash DAGs     dir=/root/.ethash           count=2
+INFO [05-22|11:22:46.797] Initialising Ethereum protocol           network=123 dbversion=<nil>
+INFO [05-22|11:22:46.797]  
+INFO [05-22|11:22:46.798] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [05-22|11:22:46.798] Chain ID:  123 (unknown) 
+INFO [05-22|11:22:46.798] Consensus: unknown 
+INFO [05-22|11:22:46.798]  
+INFO [05-22|11:22:46.798] Pre-Merge hard forks (block based): 
+INFO [05-22|11:22:46.798]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [05-22|11:22:46.798]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [05-22|11:22:46.798]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [05-22|11:22:46.798]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [05-22|11:22:46.798]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [05-22|11:22:46.798]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [05-22|11:22:46.799]  - Petersburg:                  #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [05-22|11:22:46.799]  - Istanbul:                    #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [05-22|11:22:46.799]  - Berlin:                      #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [05-22|11:22:46.799]  - London:                      #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [05-22|11:22:46.799]  
+INFO [05-22|11:22:46.799] The Merge is not yet available for this network! 
+INFO [05-22|11:22:46.799]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [05-22|11:22:46.799]  
+INFO [05-22|11:22:46.799] Post-Merge hard forks (timestamp based): 
+INFO [05-22|11:22:46.799]  
+INFO [05-22|11:22:46.799] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [05-22|11:22:46.799]  
+INFO [05-22|11:22:46.799] Loaded most recent local block           number=0 hash=1c68f7..73d124 td=32 age=54y1mo4w
+WARN [05-22|11:22:46.800] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [05-22|11:22:46.801] Rebuilding state snapshot 
+INFO [05-22|11:22:46.802] Resuming state snapshot generation       root=ca736d..524fbc accounts=0 slots=0 storage=0.00B dangling=0 elapsed="584.313µs"
+INFO [05-22|11:22:46.803] Generated state snapshot                 accounts=2 slots=0 storage=102.00B dangling=0 elapsed=1.225ms
+INFO [05-22|11:22:46.803] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [05-22|11:22:46.811] Gasprice oracle is ignoring threshold set threshold=2
+WARN [05-22|11:22:46.813] Error reading unclean shutdown markers   error="leveldb: not found"
+WARN [05-22|11:22:46.813] Engine API enabled                       protocol=eth
+WARN [05-22|11:22:46.815] Engine API started but chain not configured for merge yet 
+INFO [05-22|11:22:46.817] Starting peer-to-peer node               instance=Geth/v1.11.6-stable-ea9e62ca/linux-amd64/go1.20.3
+WARN [05-22|11:22:46.845] Deprecated personal namespace activated 
+INFO [05-22|11:22:46.846] New local node record                    seq=1,684,754,566,842 id=ea9b8b8a2bcb2448 ip=127.0.0.1 udp=0 tcp=30303
+INFO [05-22|11:22:46.846] Started P2P networking                   self="enode://701cc5e493ef2e0037d6eb0698c3b6a6d9c082ae3bfab89c6f90c73949461cf91faa02446a22a6f6015e9f38cb121f398ea246e516ff8337cc47b91401da6fd8@127.0.0.1:30303?discport=0"
+INFO [05-22|11:22:46.848] IPC endpoint opened                      url=/data/node1/geth.ipc
+INFO [05-22|11:22:46.849] Generated JWT secret                     path=/data/node1/geth/jwtsecret
+INFO [05-22|11:22:46.850] HTTP server started                      endpoint=[::]:8545 auth=false prefix= cors=* vhosts=localhost
+INFO [05-22|11:22:46.850] WebSocket enabled                        url=ws://[::]:8888
+INFO [05-22|11:22:46.851] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [05-22|11:22:46.851] HTTP server started                      endpoint=127.0.0.1:8551 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [05-22|11:22:46.852] Transaction pool price threshold updated price=0
+INFO [05-22|11:22:46.852] Updated mining threads                   threads=0
+INFO [05-22|11:22:46.852] Transaction pool price threshold updated price=1,000,000,000
+INFO [05-22|11:22:46.852] Commit new sealing work                  number=1 sealhash=a6b9f8..bf3011 uncles=0 txs=0 gas=0 fees=0 elapsed="535.36µs"
+INFO [05-22|11:22:46.853] Commit new sealing work                  number=1 sealhash=a6b9f8..bf3011 uncles=0 txs=0 gas=0 fees=0 elapsed="866.877µs"

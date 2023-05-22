@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+
+  ethereum:
+    image: ethereum/client-go:stable
+    container_name: ethereum
+    restart: always
+    volumes: [ "./data:/data" ]
+    entrypoint: /bin/sh
+    command: data/scripts/docker-entrypoint.sh
+    ports:
+      - "8545:8545"
+      - "8888:8888"
+      - "30303:30303"
+
