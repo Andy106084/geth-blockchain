@@ -59,3 +59,4 @@ INFO [05-22|11:22:46.852] Updated mining threads                   threads=0
 INFO [05-22|11:22:46.852] Transaction pool price threshold updated price=1,000,000,000
 INFO [05-22|11:22:46.852] Commit new sealing work                  number=1 sealhash=a6b9f8..bf3011 uncles=0 txs=0 gas=0 fees=0 elapsed="535.36µs"
 INFO [05-22|11:22:46.853] Commit new sealing work                  number=1 sealhash=a6b9f8..bf3011 uncles=0 txs=0 gas=0 fees=0 elapsed="866.877µs"
+WARN [05-22|11:34:46.869] Failed to get free disk space            path=/data/node1/geth           err="failed to call Statfs: no such file or directory"
